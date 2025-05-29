@@ -30,12 +30,6 @@
             "wget",
             "zsh",
         ]
-    [packages.apt.dev_computer]
-        packages = []
-    [packages.apt.homelab_member]
-        packages = ["iperf"]
-    [packages.apt.personal_computer]
-        packages = []
 [packages.python]
     to_remove = []
     [packages.python.common]
@@ -48,20 +42,11 @@
     [packages.python.personal_computer]
         packages = ["vid-cleaner"]
 [packages.homebrew]
-    to_remove = ["btop", "htop", "istat-menus", "qlimagesize", "rocket", "shotrr"]
+    # to_remove = ["btop", "htop", "istat-menus", "qlimagesize", "rocket", "shotrr"]
     [packages.homebrew.common]
         casks = [
             "1password-cli",                     # Text expander
-            "font-departure-mono",
-            "font-jetbrains-mono-nerd-font",
-            "font-meslo-lg-dz",
-            "font-meslo-lg-nerd-font",
-            "ghostty",
             "git-credential-manager",
-            "grandperspective",              # Disk usage visualizer
-            "iterm2",                        # Terminal emulator
-            "jordanbaird-ice",               # Menu bar customization
-            "tailscale",
         ]
         formulae = [
             "atuin",           # Better shell history
@@ -103,44 +88,6 @@
             "zoxide",          # A faster way to navigate your filesystem
             "zsh",
         ]
-    [packages.homebrew.dev_computer]
-        casks = [
-            "bruno",
-            "dbeaver-community",
-            "fork",
-            # "sourcetree", # Alternative to fork
-            "cursor",
-            "lingon-x",
-        ]
-        formulae = [
-            "act",        # runs GitHub Actions locally
-            "bats-core",
-            "doggo",      # DNS Client
-            "gh",         # GitHub CLI
-            "git-delta",
-            "git-extras",
-            "goaccess",
-            "gpg",
-            "jless",      # JSON viewer
-            "lazygit",    # simple terminal UI for git commands
-            "libpq",      # PostgreSQL utilities but not postgresql itself
-            "redis",
-            "shellcheck",
-            "shfmt",
-        ]
     [packages.homebrew.homelab_member]
         casks    = []
         formulae = ["ffmpeg", "iperf", "nmap", "tailspin"]
-    [packages.homebrew.personal_computer]
-        casks = [
-            # Quick Look plugins
-            "qlcolorcode",
-            "qlmarkdown",
-            "qlprettypatch",
-            "qlstephen",
-            "qlvideo",
-            "quicklook-csv",
-            "quicklook-json",
-            "webpquicklook",
-        ]
-        formulae = []
