@@ -138,27 +138,6 @@
         formulae = ["ffmpeg", "iperf", "nmap", "tailspin"]
     [packages.homebrew.personal_computer]
         casks = [
-            "arc",
-            "brave-browser",
-            "discord",
-            "firefox",
-            "fmail2",
-            "google-chrome",
-            "iina",
-            "kap",
-            "librewolf",
-            "lulu",          # Firewall
-            "mimestream",
-            "obsidian",
-            "plex",
-            "raycast",
-            "roon",
-            "slack",
-            "stats",
-            "syncthing",
-            "tripmode",
-            "whatsapp",
-            "zoom",
             # Quick Look plugins
             "qlcolorcode",
             "qlmarkdown",
