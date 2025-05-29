@@ -1,9 +1,3 @@
 {{- if and (eq .chezmoi.os "darwin") (not .is_ci_workflow) -}}
-#!/usr/bin/env bash
-
-{{ template "shared_script_utils.bash" . }}
-
-
-_safeExit_
 
 {{- end }}
