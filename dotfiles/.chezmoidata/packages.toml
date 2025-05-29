@@ -152,6 +152,4 @@
     [packages.mas.homelab_member]
         apps = []
     [packages.mas.personal_computer]
-        apps = [
-            # "1091189122", # Bear
-        ]
+        apps = []
