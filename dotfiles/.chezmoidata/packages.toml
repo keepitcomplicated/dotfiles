@@ -51,9 +51,7 @@
     to_remove = ["btop", "htop", "istat-menus", "qlimagesize", "rocket", "shotrr"]
     [packages.homebrew.common]
         casks = [
-            "1password",
-            "1password-cli",
-            "espanso",                       # Text expander
+            "1password-cli",                     # Text expander
             "font-departure-mono",
             "font-jetbrains-mono-nerd-font",
             "font-meslo-lg-dz",
@@ -63,10 +61,7 @@
             "grandperspective",              # Disk usage visualizer
             "iterm2",                        # Terminal emulator
             "jordanbaird-ice",               # Menu bar customization
-            "lingon-x",
-            "orbstack",                      # Docker replacement
             "tailscale",
-            "visual-studio-code",
         ]
         formulae = [
             "atuin",           # Better shell history
